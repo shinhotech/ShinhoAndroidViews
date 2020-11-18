@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+
+            <item
+                android:drawable="@drawable/btn_dred_8shadow"
+                android:state_pressed="true" />
+
+            <item
+                android:drawable="@drawable/btn_gray_gradient_8padding"
+                android:state_enabled="false" />
+
+            <item android:drawable="@drawable/btn_red_8shadow" />
+
+        </selector>
+    </item>
+
+    <item>
+        <selector>
+
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="6dp" />
+
+                    <gradient
+                        android:endColor="#D43C3E"
+                        android:startColor="#E46547" />
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/correct6_gradient_oran2red" />
+
+        </selector>
+    </item>
+
+
+</layer-list>

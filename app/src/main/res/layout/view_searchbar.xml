@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/searchbar_iv_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_search" />
+
+        <EditText
+            android:id="@+id/searchbar_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_toRightOf="@id/searchbar_iv_icon"
+            android:background="@null"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:textColor="@color/txt_black"
+            android:textColorHint="@color/txt_gray"
+            android:textSize="@dimen/txt_subhead" />
+
+        <ImageView
+            android:id="@+id/searchbar_iv_clear"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_search_clear"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/searchbar_tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="取消"
+        android:textColor="@color/txt_black"
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>

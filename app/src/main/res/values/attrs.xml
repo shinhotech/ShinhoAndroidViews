@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomTabRadioButton">
+        <attr name="hint_mode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="point" value="1" />
+            <enum name="num" value="2" />
+        </attr>
+        <attr name="hint_color" format="color" />
+        <attr name="hint_toppadding" format="dimension" />
+        <attr name="hint_rightpadding" format="dimension" />
+        <attr name="point_radius" format="dimension" />
+        <attr name="num" format="integer" />
+        <attr name="num_radius" format="dimension" />
+        <attr name="num_size" format="dimension" />
+        <attr name="num_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuBar">
+        <attr name="icon_res" format="reference" />
+        <attr name="text" />
+        <attr name="unread_count" format="integer" />
+        <attr name="show_divider_line" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleBar">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="InputBar">
+        <attr name="header" format="string" />
+        <attr name="isNecessary" format="boolean" />
+        <attr name="headerLevel" format="enum">
+            <enum name="little" value="0" />
+            <enum name="medium" value="1" />
+        </attr>
+        <attr name="needFilledPoint" format="boolean" />
+        <attr name="isIgnoreDivider" format="boolean" />
+        <attr name="isNeverEdit" format="boolean" />
+        <attr name="hint" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomBar">
+        <attr name="onlyRead" format="boolean" />
+        <attr name="bottom_text" format="string" />
+        <attr name="shouldCheckAgain" format="boolean" />
+        <attr name="alwaysOnlyRead" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogTitle">
+        <attr name="title" />
+        <attr name="close_style" format="enum">
+            <enum name="button" value="0" />
+            <enum name="fork" value="1" />
+        </attr>
+        <attr name="close_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EditInputBar">
+        <attr name="togglePwdMode" format="boolean" />
+        <attr name="filter" format="enum">
+            <enum name="rate" value="0" />
+            <enum name="decimal" value="1" />
+            <enum name="negativeDecimal" value="2" />
+            <enum name="num" value="3" />
+            <enum name="negativeNum" value="4" />
+            <enum name="phoneNum" value="5" />
+            <enum name="decimalString" value="6" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ManualMapInputBar">
+        <attr name="hint" />
+        <attr name="displayMode" format="enum">
+            <enum name="map" value="0" />
+            <enum name="list" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CountInputBar">
+        <attr name="maxLength" format="integer" />
+        <attr name="unit" format="string" />
+        <attr name="etWidth" format="dimension" />
+        <attr name="enumModule" />
+        <attr name="enumItem" />
+    </declare-styleable>
+
+    <declare-styleable name="TwoSpinnerInputBar">
+        <attr name="hint" />
+        <attr name="subHeader" format="string" />
+        <attr name="subHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SpinnerInputBar">
+        <attr name="enumModule" />
+        <attr name="enumItem" />
+        <attr name="enumParentItem" format="string" />
+        <attr name="needSearch" format="boolean" />
+        <attr name="isMultiSelect" />
+        <attr name="showAddOption" format="boolean" />
+        <attr name="showSystemValueIfNull" format="boolean" />
+        <attr name="searchDialogHeader" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SelectCommodityInputBar">
+        <attr name="isMultiSelect" />
+        <attr name="dialogTitle" format="string" />
+        <attr name="isShinho" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SearchEnumDataInputBar">
+        <attr name="enumModule" />
+        <attr name="enumItems" format="string" />
+        <attr name="hint" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SpinnerItem">
+        <attr name="hint" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TimeInputBar">
+        <attr name="hint" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingInputBar">
+        <attr name="max" format="integer" />
+        <attr name="progress" />
+        <attr name="headerUp" format="boolean" />
+        <attr name="showEvaluateString" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckItem">
+        <attr name="title" />
+        <attr name="title_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchBar">
+        <attr name="showCancel" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PointDashVerticalView">
+        <attr name="showStartPoint" format="boolean" />
+        <attr name="showEndPoint" format="boolean" />
+        <attr name="startPointOffset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CardsEditView">
+        <attr name="contentName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchTitle">
+        <attr name="title" />
+        <attr name="boldStyle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AuditView">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiImageViewInput">
+        <attr name="justShow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SupportPersonInputBar">
+        <attr name="otherDialogTitle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SolidCircleView">
+        <attr name="color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PeriodHourMinInputBar">
+        <attr name="chooseTitle" format="string" />
+        <attr name="startTitle" format="string" />
+        <attr name="endTitle" format="string" />
+
+    </declare-styleable>
+    <declare-styleable name="FScrollView">
+        <attr name="emptyIllustration" />
+        <attr name="emptyTip" />
+
+    </declare-styleable>
+    <declare-styleable name="FRecyclerView">
+        <attr name="emptyIllustration" />
+        <attr name="emptyTip" />
+        <attr name="initIllustration" />
+        <attr name="initTip" />
+    </declare-styleable>
+    <declare-styleable name="FFrameLayout">
+        <attr name="emptyIllustration" />
+        <attr name="emptyTip" />
+
+    </declare-styleable>
+    <declare-styleable name="AddButton">
+        <attr name="addText" format="string" />
+        <attr name="wideMode" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FViewPager">
+        <attr name="canBeDragged" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ProgressLineView">
+        <attr name="isDash" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CompareBar">
+        <attr name="title" />
+    </declare-styleable>
+    <attr name="title" format="string" />
+    <attr name="hint" format="string" />
+    <attr name="text" format="string" />
+    <attr name="enumModule" format="string" />
+    <attr name="emptyIllustration" format="enum">
+        <enum name="sku" value="0" />
+        <enum name="support" value="1" />
+        <enum name="user" value="2" />
+        <enum name="customer" value="3" />
+        <enum name="other" value="4" />
+    </attr>
+    <attr name="initIllustration" format="enum">
+        <enum name="sku" value="0" />
+        <enum name="support" value="1" />
+        <enum name="user" value="2" />
+        <enum name="customer" value="3" />
+        <enum name="other" value="4" />
+    </attr>
+
+    <attr name="emptyTip" format="string" />
+    <attr name="initTip" format="string" />
+    <attr name="isMultiSelect" format="boolean" />
+    <attr name="enumItem" format="string" />
+    <attr name="progress" format="integer" />
+
+</resources>

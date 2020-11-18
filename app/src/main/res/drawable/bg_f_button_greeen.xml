@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+
+            <item android:drawable="@drawable/btn_dgreen_8shadow" />
+
+        </selector>
+    </item>
+
+    <item>
+        <selector>
+
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="6dp" />
+
+                    <gradient
+                        android:endColor="#6B949C"
+                        android:startColor="#A3B9C4" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/correct6_gradient_green" />
+
+        </selector>
+    </item>
+
+
+</layer-list>

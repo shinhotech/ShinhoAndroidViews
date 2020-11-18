@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_small"
+        android:background="@drawable/bg_shadow_top8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/margin_medium">
+
+        <ImageView
+            android:id="@+id/bottom_iv_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="center"
+            android:src="@drawable/icon_button_back" />
+
+        <TextView
+            android:id="@+id/bottom_tv_tip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/txt_gray"
+            android:textSize="@dimen/txt_caption" />
+
+        <com.archex.core.view.ProgressButton
+            android:id="@+id/bottom_btn"
+            style="@style/FButton" />
+
+    </LinearLayout>
+</LinearLayout>
