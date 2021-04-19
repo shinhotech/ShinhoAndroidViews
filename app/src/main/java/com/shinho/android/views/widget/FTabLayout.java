@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,8 @@ import android.view.LayoutInflater;
 import androidx.viewpager.widget.ViewPager;
 
 
-import com.shinho.android.utils.DisplayUtils;
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.R;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
 import net.lucode.hackware.magicindicator.ViewPagerHelper;

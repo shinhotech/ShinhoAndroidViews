@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+
+import com.shinho.android.views.R;
 
 
 /**
@@ -71,12 +73,6 @@ public class BottomBar extends FrameLayout {
 
         iv_back.setOnClickListener(v -> {
             Context ctx = getContext();
-//sfa:用于适配特定的 finish 逻辑
-//            if(ctx instanceof BaseActivity) {
-//                if (((BaseActivity)ctx).handleFinishActivity()) {
-//                    return;
-//                }
-//            }
 
             if (ctx instanceof Activity) {
                 ((Activity) ctx).finish();
@@ -100,26 +96,6 @@ public class BottomBar extends FrameLayout {
     public boolean isAlwaysOnlyRead() {
         return alwaysOnlyRead;
     }
-
-    // sfa:用于显示『重新』字样
-//    @Override
-//    protected void onAttachedToWindow() {
-//        super.onAttachedToWindow();
-//        updateBottomText();
-//
-//    }
-//
-//    public void setShouldCheckAgain(boolean shouldCheckAgain) {
-//        this.shouldCheckAgain = shouldCheckAgain;
-//        updateBottomText();
-//    }
-//
-//    private void updateBottomText() {
-//        boolean showAgain = shouldCheckAgain && getContext() instanceof BaseVisitWorkActivity &&
-//                ((BaseVisitWorkActivity) getContext()).alreadyCommitted;
-//        CharSequence btnText = btn.getText();
-//        btn.setText(showAgain ? "重新" + btnText : btnText);
-//    }
 
     /**
      * 设置只读状态

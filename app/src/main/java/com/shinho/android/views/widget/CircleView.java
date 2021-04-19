@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -14,7 +14,8 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.shinho.android.utils.DisplayUtils;
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.R;
 
 
 /**

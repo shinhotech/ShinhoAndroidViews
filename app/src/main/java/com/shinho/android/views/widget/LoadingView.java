@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,8 +9,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.shinho.android.utils.DisplayUtils;
-import com.shinho.android.utils.SimpleAnimListener;
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.utils.SimpleAnimListener;
+import com.shinho.android.views.R;
 
 /**
  * Created by chunyangli on 2018/3/13.

@@ -1,4 +1,4 @@
-package com.shinho.android.utils;
+package com.shinho.android.views.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

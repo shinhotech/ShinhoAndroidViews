@@ -1,4 +1,4 @@
-package com.shinho.android.utils;
+package com.shinho.android.views.utils;
 
 /**
  * Created by chunyangli on 2018/2/7.

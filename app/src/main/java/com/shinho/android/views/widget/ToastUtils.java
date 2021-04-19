@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -10,7 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.shinho.android.utils.DisplayUtils;
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.R;
 
 import java.lang.ref.WeakReference;
 

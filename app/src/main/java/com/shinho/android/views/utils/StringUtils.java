@@ -1,9 +1,8 @@
-package com.shinho.android.utils;
+package com.shinho.android.views.utils;
 
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextUtils;
-import android.text.format.DateUtils;
 import android.text.style.ForegroundColorSpan;
 
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package com.shinho.android.utils;
+package com.shinho.android.views.utils;
 
 import android.text.Editable;
 import android.text.TextWatcher;

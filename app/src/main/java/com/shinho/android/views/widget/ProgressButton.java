@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,7 +6,8 @@ import android.view.Gravity;
 
 import androidx.appcompat.widget.AppCompatTextView;
 
-import com.shinho.android.utils.DisplayUtils;
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.R;
 
 
 public class ProgressButton extends AppCompatTextView {

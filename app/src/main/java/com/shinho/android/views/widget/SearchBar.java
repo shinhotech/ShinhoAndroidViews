@@ -1,4 +1,4 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,10 +17,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.shinho.android.utils.DisplayUtils;
-import com.shinho.android.utils.SimpleTextWatcher;
-import com.shinho.android.utils.StringUtils;
-
+import com.shinho.android.views.utils.DisplayUtils;
+import com.shinho.android.views.utils.SimpleTextWatcher;
+import com.shinho.android.views.utils.StringUtils;
+import com.shinho.android.views.R;
 
 
 /**

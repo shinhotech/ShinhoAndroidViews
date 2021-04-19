@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.shinho.android.views.widget.SearchBar;
+
 public class MainActivity extends AppCompatActivity {
 
     SearchBar searchBar;

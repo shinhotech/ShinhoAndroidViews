@@ -1,10 +1,12 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+
+import com.shinho.android.views.R;
 
 /**
  * Created by chunyangli on 2018/3/13.

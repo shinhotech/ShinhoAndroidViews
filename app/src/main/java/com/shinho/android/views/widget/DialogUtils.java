@@ -1,19 +1,18 @@
-package com.shinho.android.views;
+package com.shinho.android.views.widget;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
-import com.shinho.android.utils.OnPickAvatarListener;
-import com.shinho.android.utils.OnPickImageListener;
-import com.shinho.android.utils.StringUtils;
+import com.shinho.android.views.utils.OnPickAvatarListener;
+import com.shinho.android.views.utils.OnPickImageListener;
+import com.shinho.android.views.utils.StringUtils;
+import com.shinho.android.views.R;
 
 import java.util.Arrays;
 
